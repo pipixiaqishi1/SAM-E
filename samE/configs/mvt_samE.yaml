@@ -1,0 +1,4 @@
+ifSAM: True
+lora_finetune: True
+ifsep: False
+resize_rgb: True
