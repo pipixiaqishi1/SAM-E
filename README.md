@@ -1,5 +1,7 @@
 [***SAM-E: Leveraging Visual Foundation Model with Sequence Imitation for Embodied Manipulation***](https://sam-embodied.github.io/) <br/>
 ***ICML 2024***
+
+
 ![](./framework.jpg)
 ```
 @inproceedings{2024sam,
@@ -63,11 +65,11 @@ pip install -e samE/libs/peract_colab
 ``` 
 
 ## Training
-- **Step 1:** Download dataset to
+- **Step 1:** Download dataset
 
 We use the same dataset as [RVT](https://github.com/nvlabs/rvt) for experiments in RLBench. Download the [dataset](https://drive.google.com/drive/folders/0B2LlLwoO3nfZfkFqMEhXWkxBdjJNNndGYl9uUDQwS1pfNkNHSzFDNGwzd1NnTmlpZXR1bVE?resourcekey=0-jRw5RaXEYRLe2W6aNrNFEQ) provided by [PerAct](https://github.com/peract/peract#download) to `SAM-E/samE/data/`. For training, you may only need to download the `/train/` and take it as `SAM-E/samE/data/train/`.
 
-- **Step 2:** Begin training
+- **Step 2:** Start training
 
 `python trainc_sam.py --exp_cfg_path configs/samE.yaml --mvt_cfg_path configs/mvt_samE.yaml --device 0,1,2,3`
 
