@@ -71,7 +71,9 @@ We use the same dataset as [RVT](https://github.com/nvlabs/rvt) for experiments 
 
 - **Step 2:** Start training
 
-`python train.py --exp_cfg_path configs/samE.yaml --mvt_cfg_path configs/mvt_samE.yaml --device 0,1,2,3`
+```
+python train.py --exp_cfg_path configs/samE.yaml --mvt_cfg_path configs/mvt_samE.yaml --device 0,1,2,3
+```
 
 Change the `device` flag depending on available gpus.
 
