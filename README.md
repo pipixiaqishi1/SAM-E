@@ -86,6 +86,8 @@ Change the `device` flag depending on available gpus.
     python eval.py  --model-folder runs/sam_e --eval-datafolder ./data/test --tasks all --eval-episodes 25 --log-name test/final --device 0 --model-name model_14.pth
     ```
 
+## Checkpoint
+- We provide a checkpoint of the multi-task training which is available [here](https://drive.google.com/drive/folders/1ypWbrX3ENXWYUwCz7sQK4AZkW-kqOD4a?usp=sharing).
 
 ## Acknowledgement
 We sincerely thank the authors of the following repositories for sharing their code.
